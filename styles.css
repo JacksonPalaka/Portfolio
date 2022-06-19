@@ -98,11 +98,12 @@ li a{
 }
 .third{
   display: flex;
-  gap: 10%;
-  width:40%;
+  flex-direction: row;
+  gap: 20%;
+  width:50%;
   padding:2rem auto;
   margin:10px auto;
-  margin-left:5%;
+  margin-left:10%;
 }
 .thirdImage{
   width:50%;
@@ -110,7 +111,7 @@ li a{
   border-radius: 10%;
 }
 .third p{
-  width:60%;
+  width:100%;
   height: fit-content;
   font-size:8vh;
   font-family: cursive;
